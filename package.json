@@ -1,0 +1,19 @@
+{
+  "name": "hexify",
+  "version": "1.0.0",
+  "description": "A Discord.js bot to create custom role colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exr0n/discordbots-hexify.git"
+  },
+  "author": "Exr0n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exr0n/discordbots-hexify/issues"
+  },
+  "homepage": "https://github.com/Exr0n/discordbots-hexify#readme"
+}
