@@ -21,10 +21,10 @@ const handle = {
     desc: "Displays this message",
     run: async (msg) => {
       let cmdlist = "";
-      for (k of handle) {
-        cmdlist += `${k.padEnd(20)}${handle[k].desc}\n`;
+      for (let k in handle) {
+        cmdlist += `${k.padEnd(24)}${handle[k].desc}\n`;
       }
-      return msg.reply(`Try \`${conf.ux.prefix}set <hexcode>\` to change your role color!\n${cmdlist}`)
+      return msg.reply(`Try \`${conf.ux.prefix}set <hexcode>\` to change your role color!\n\n${cmdlist}`)
       .catch(console.error);
     }
   },
