@@ -6,6 +6,10 @@
   "ux":
   {
     "prefix": "h#",
-    "invite": "https://discordapp.com/api/oauth2/authorize?client_id=614106994055577611&permissions=268553280&scope=bot"
+    "invite": "https://discordapp.com/api/oauth2/authorize?client_id=614106994055577611&permissions=268553280&scope=bot",
+    "cooldown": 1000
+  },
+  "fn": {
+    "role_prefix": "hexify-"
   }
 }
