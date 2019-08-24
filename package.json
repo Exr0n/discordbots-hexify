@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Exr0n/discordbots-hexify/issues"
   },
-  "homepage": "https://github.com/Exr0n/discordbots-hexify#readme"
+  "homepage": "https://github.com/Exr0n/discordbots-hexify#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1"
+  }
 }
